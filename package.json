@@ -6,6 +6,7 @@
     ".": "./dist/index.js"
   },
   "types": "./dist/index.d.ts",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -14,6 +15,7 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^25.6.0",
+    "babel-jest": "^30.3.0",
     "eslint": "^10.2.1",
     "eslint-plugin-jsdoc": "^62.9.0",
     "globals": "^17.5.0",

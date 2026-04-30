@@ -6,7 +6,7 @@ import stylistic from "@stylistic/eslint-plugin";
 import jsdoc from "eslint-plugin-jsdoc";
 
 export default defineConfig([
-    { ignores: [ "eslint.config.mjs", "**/dist/**", "**/node_modules/**", "babel.config.js", "jest.config.js", "tsconfig.json", "**/*.test.*"] },
+    { ignores: [ "eslint.config.mjs", "**/dist/**", "**/node_modules/**", "babel.config.cjs", "jest.config.cjs", "tsconfig.json", "**/*.test.*"] },
     { files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"], plugins: { js }, extends: ["js/recommended"] },
     { files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"], languageOptions: { globals: { ...globals.browser, ...globals.jquery } } },
     tseslint.configs.recommended,
